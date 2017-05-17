@@ -1,0 +1,26 @@
+
+INSTRUCTIONS FOR ARDUINO EXCEL INSTALLING
+
+Please perform some simple task:
+
+Arduino
+* open and compile the sketch Arduino_Excel_nn.ino in your Arduino projects	(you can see output strings thru the serial monitor set at 115200)
+
+Excel
+* open Documents\Arduino_Excel\Arduino_Excel_nn.xls				(the file can be located where you like)
+* allow macro execution 							(needed only at first run)
+* Office 2003
+  ** on menu Tools, Macro, Protection, select Low as protection level 		(this allows VBA code to work)
+  ** on menu Tools, Macro,  Trusted Sources tab, set 'Trust access to Visual Basic Project'
+* Office 2013
+  ** allow macro execution while file opening
+  ** on File, Options, Protection Center, Macro settings check 'Trust access to the VBA project object model'
+* back to Excel press CTRL a
+
+HABILITAR MACROS TODAS
+
+While I haven't the possibility to test every context please tell me if it doesn't work specifying your Windows and Office versions
+
+Thanks a lot
+
+roberto.valgolio@gmail.com
